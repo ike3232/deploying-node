@@ -27,9 +27,9 @@ jobs:
 
     - name: Push Docker Image
       run: |
-        docker tag e-commerce ik3232/e-commerce:latest
+        docker tag e-commerce ik3232/e-commerce
 
-        docker push ik3232/e-commerce:latest
+        docker push ik3232/e-commerce
 
 
     - name: Terraform Init
