@@ -27,8 +27,8 @@ jobs:
 
     - name: Push Docker Image
       run: |
-        docker tag e-commerce $ik3232/e-commerce
-        docker push $ik3232/e-commerce
+        docker tag ik3232/e-commerce
+        docker push ik3232/e-commerce
 
     - name: Terraform Init
       uses: hashicorp/setup-terraform@v3
