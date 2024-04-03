@@ -10,7 +10,7 @@ provider "google" {
 resource "google_compute_instance" "app_instance" {
   name         = "app-instance"
   machine_type = "n1-standard-2"
-  zone         = "us-central1-a"
+  zone         = "us-central1-c"
 
   boot_disk {
     initialize_params {
@@ -32,7 +32,7 @@ resource "google_compute_instance" "app_instance" {
 resource "google_compute_instance" "db_instance" {
   name         = "db-instance"
   machine_type = "n1-standard-2"
-  zone         = "us-central1-a"
+  zone         = "us-central1-c"
 
   boot_disk {
     initialize_params {
