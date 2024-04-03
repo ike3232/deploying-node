@@ -36,6 +36,7 @@ jobs:
       uses: hashicorp/setup-terraform@v3
 
     - name: Terraform Plan
+      uses: "/home/anthony/.config/gcloud/application_default_credentials.json"
       run: terraform plan
 
     - name: Terraform Apply
