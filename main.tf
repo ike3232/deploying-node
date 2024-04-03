@@ -2,11 +2,6 @@ provider "google" {
   credentials = file("/home/anthony/.config/gcloud/application_default_credentials.json")
   project     = "protean-topic-411511"
   region      = "us-central1"
-  provider "google" {
-  version = ">= 3.0, < 4.0"
-  # Other provider configuration options...
-}
-
 }
 
 # Define Google Compute Engine instances
