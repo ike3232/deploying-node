@@ -31,7 +31,7 @@ jobs:
         docker push $DOCKER_USERNAME/my-node-app
 
     - name: Terraform Init
-      uses: hashicorp/terraform-setup-actions@v1
+      uses: hashicorp/setup-terraform@v3
 
     - name: Terraform Plan
       run: terraform plan
