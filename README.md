@@ -1,2 +1,2 @@
 # deploying-node
-db sql
+db 98
