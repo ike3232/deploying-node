@@ -1,5 +1,5 @@
 provider "google" {
-  credentials = file("${path.root}/event_patterns/${var.rule_name}.json")
+  credentials = file("/home/anthony/.config/gcloud/application_default_credentials.json")
   project     = "protean-topic-411511"
   region      = "us-central1"
 }
