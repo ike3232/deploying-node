@@ -3,6 +3,10 @@ provider "google" {
   project     = "protean-topic-411511"
   region      = "us-central1"
 }
+variable "google_credentials" {
+  description = "Google Cloud service account credentials"
+}
+
 
 # Define Google Compute Engine instances
 
