@@ -1,2 +1,2 @@
 # deploying-node
-db 98
+db 98o8
