@@ -1,5 +1,5 @@
 provider "google" {
-  credentials = file("/home/anthony/.config/gcloud/application_default_credentials.json")
+  credentials = jsondecode(var.google_credentials)
   project     = "protean-topic-411511"
   region      = "us-central1"
 }
